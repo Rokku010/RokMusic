@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8710CFD82C02F24300CA9F6B /* RokMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFD72C02F24300CA9F6B /* RokMusicApp.swift */; };
+		8710CFDA2C02F24300CA9F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFD92C02F24300CA9F6B /* ContentView.swift */; };
+		8710CFDC2C02F24400CA9F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8710CFDB2C02F24400CA9F6B /* Assets.xcassets */; };
+		8710CFDF2C02F24400CA9F6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8710CFDE2C02F24400CA9F6B /* Preview Assets.xcassets */; };
+		8710CFE92C02F24400CA9F6B /* RokMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFE82C02F24400CA9F6B /* RokMusicTests.swift */; };
+		8710CFF32C02F24400CA9F6B /* RokMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFF22C02F24400CA9F6B /* RokMusicUITests.swift */; };
+		8710CFF52C02F24400CA9F6B /* RokMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710CFF42C02F24400CA9F6B /* RokMusicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8710CFE52C02F24400CA9F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8710CFCC2C02F24300CA9F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8710CFD32C02F24300CA9F6B;
+			remoteInfo = RokMusic;
+		};
+		8710CFEF2C02F24400CA9F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8710CFCC2C02F24300CA9F6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8710CFD32C02F24300CA9F6B;
+			remoteInfo = RokMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8710CFD42C02F24300CA9F6B /* RokMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RokMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8710CFD72C02F24300CA9F6B /* RokMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokMusicApp.swift; sourceTree = "<group>"; };
+		8710CFD92C02F24300CA9F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8710CFDB2C02F24400CA9F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8710CFDE2C02F24400CA9F6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8710CFE42C02F24400CA9F6B /* RokMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8710CFE82C02F24400CA9F6B /* RokMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokMusicTests.swift; sourceTree = "<group>"; };
+		8710CFEE2C02F24400CA9F6B /* RokMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RokMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8710CFF22C02F24400CA9F6B /* RokMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokMusicUITests.swift; sourceTree = "<group>"; };
+		8710CFF42C02F24400CA9F6B /* RokMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8710CFD12C02F24300CA9F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8710CFE12C02F24400CA9F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8710CFEB2C02F24400CA9F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8710CFCB2C02F24300CA9F6B = {
+			isa = PBXGroup;
+			children = (
+				8710CFD62C02F24300CA9F6B /* RokMusic */,
+				8710CFE72C02F24400CA9F6B /* RokMusicTests */,
+				8710CFF12C02F24400CA9F6B /* RokMusicUITests */,
+				8710CFD52C02F24300CA9F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8710CFD52C02F24300CA9F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFD42C02F24300CA9F6B /* RokMusic.app */,
+				8710CFE42C02F24400CA9F6B /* RokMusicTests.xctest */,
+				8710CFEE2C02F24400CA9F6B /* RokMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8710CFD62C02F24300CA9F6B /* RokMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFD72C02F24300CA9F6B /* RokMusicApp.swift */,
+				8710CFD92C02F24300CA9F6B /* ContentView.swift */,
+				8710CFDB2C02F24400CA9F6B /* Assets.xcassets */,
+				8710CFDD2C02F24400CA9F6B /* Preview Content */,
+			);
+			path = RokMusic;
+			sourceTree = "<group>";
+		};
+		8710CFDD2C02F24400CA9F6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFDE2C02F24400CA9F6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8710CFE72C02F24400CA9F6B /* RokMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFE82C02F24400CA9F6B /* RokMusicTests.swift */,
+			);
+			path = RokMusicTests;
+			sourceTree = "<group>";
+		};
+		8710CFF12C02F24400CA9F6B /* RokMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8710CFF22C02F24400CA9F6B /* RokMusicUITests.swift */,
+				8710CFF42C02F24400CA9F6B /* RokMusicUITestsLaunchTests.swift */,
+			);
+			path = RokMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8710CFD32C02F24300CA9F6B /* RokMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8710CFF82C02F24400CA9F6B /* Build configuration list for PBXNativeTarget "RokMusic" */;
+			buildPhases = (
+				8710CFD02C02F24300CA9F6B /* Sources */,
+				8710CFD12C02F24300CA9F6B /* Frameworks */,
+				8710CFD22C02F24300CA9F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RokMusic;
+			productName = RokMusic;
+			productReference = 8710CFD42C02F24300CA9F6B /* RokMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8710CFE32C02F24400CA9F6B /* RokMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8710CFFB2C02F24400CA9F6B /* Build configuration list for PBXNativeTarget "RokMusicTests" */;
+			buildPhases = (
+				8710CFE02C02F24400CA9F6B /* Sources */,
+				8710CFE12C02F24400CA9F6B /* Frameworks */,
+				8710CFE22C02F24400CA9F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8710CFE62C02F24400CA9F6B /* PBXTargetDependency */,
+			);
+			name = RokMusicTests;
+			productName = RokMusicTests;
+			productReference = 8710CFE42C02F24400CA9F6B /* RokMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8710CFED2C02F24400CA9F6B /* RokMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8710CFFE2C02F24400CA9F6B /* Build configuration list for PBXNativeTarget "RokMusicUITests" */;
+			buildPhases = (
+				8710CFEA2C02F24400CA9F6B /* Sources */,
+				8710CFEB2C02F24400CA9F6B /* Frameworks */,
+				8710CFEC2C02F24400CA9F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8710CFF02C02F24400CA9F6B /* PBXTargetDependency */,
+			);
+			name = RokMusicUITests;
+			productName = RokMusicUITests;
+			productReference = 8710CFEE2C02F24400CA9F6B /* RokMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8710CFCC2C02F24300CA9F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8710CFD32C02F24300CA9F6B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8710CFE32C02F24400CA9F6B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8710CFD32C02F24300CA9F6B;
+					};
+					8710CFED2C02F24400CA9F6B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8710CFD32C02F24300CA9F6B;
+					};
+				};
+			};
+			buildConfigurationList = 8710CFCF2C02F24300CA9F6B /* Build configuration list for PBXProject "RokMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8710CFCB2C02F24300CA9F6B;
+			productRefGroup = 8710CFD52C02F24300CA9F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8710CFD32C02F24300CA9F6B /* RokMusic */,
+				8710CFE32C02F24400CA9F6B /* RokMusicTests */,
+				8710CFED2C02F24400CA9F6B /* RokMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8710CFD22C02F24300CA9F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8710CFDF2C02F24400CA9F6B /* Preview Assets.xcassets in Resources */,
+				8710CFDC2C02F24400CA9F6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8710CFE22C02F24400CA9F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8710CFEC2C02F24400CA9F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8710CFD02C02F24300CA9F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8710CFDA2C02F24300CA9F6B /* ContentView.swift in Sources */,
+				8710CFD82C02F24300CA9F6B /* RokMusicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8710CFE02C02F24400CA9F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8710CFE92C02F24400CA9F6B /* RokMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8710CFEA2C02F24400CA9F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8710CFF52C02F24400CA9F6B /* RokMusicUITestsLaunchTests.swift in Sources */,
+				8710CFF32C02F24400CA9F6B /* RokMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8710CFE62C02F24400CA9F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8710CFD32C02F24300CA9F6B /* RokMusic */;
+			targetProxy = 8710CFE52C02F24400CA9F6B /* PBXContainerItemProxy */;
+		};
+		8710CFF02C02F24400CA9F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8710CFD32C02F24300CA9F6B /* RokMusic */;
+			targetProxy = 8710CFEF2C02F24400CA9F6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8710CFF62C02F24400CA9F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8710CFF72C02F24400CA9F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8710CFF92C02F24400CA9F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RokMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = 46D5N68GTW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RokMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8710CFFA2C02F24400CA9F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RokMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = 46D5N68GTW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RokMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8710CFFC2C02F24400CA9F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46D5N68GTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RokMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RokMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RokMusic";
+			};
+			name = Debug;
+		};
+		8710CFFD2C02F24400CA9F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46D5N68GTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RokMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RokMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RokMusic";
+			};
+			name = Release;
+		};
+		8710CFFF2C02F24400CA9F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46D5N68GTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RokMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RokMusic;
+			};
+			name = Debug;
+		};
+		8710D0002C02F24400CA9F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46D5N68GTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RokMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RokMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8710CFCF2C02F24300CA9F6B /* Build configuration list for PBXProject "RokMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8710CFF62C02F24400CA9F6B /* Debug */,
+				8710CFF72C02F24400CA9F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8710CFF82C02F24400CA9F6B /* Build configuration list for PBXNativeTarget "RokMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8710CFF92C02F24400CA9F6B /* Debug */,
+				8710CFFA2C02F24400CA9F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8710CFFB2C02F24400CA9F6B /* Build configuration list for PBXNativeTarget "RokMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8710CFFC2C02F24400CA9F6B /* Debug */,
+				8710CFFD2C02F24400CA9F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8710CFFE2C02F24400CA9F6B /* Build configuration list for PBXNativeTarget "RokMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8710CFFF2C02F24400CA9F6B /* Debug */,
+				8710D0002C02F24400CA9F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8710CFCC2C02F24300CA9F6B /* Project object */;
+}
